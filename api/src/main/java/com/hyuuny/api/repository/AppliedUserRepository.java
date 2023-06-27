@@ -12,6 +12,7 @@ public class AppliedUserRepository {
         this.redisTemplate = redisTemplate;
     }
 
+    
     public Long add(final Long userId) {
         return redisTemplate
                 .opsForSet()

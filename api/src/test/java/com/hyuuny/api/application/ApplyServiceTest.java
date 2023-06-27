@@ -51,7 +51,7 @@ class ApplyServiceTest {
     }
 
     @Test
-    void 한명당_한개의쿠폰만_발급() throws InterruptedException {
+    void 한명당_한개의쿠폰만_발급된다() throws InterruptedException {
         int threadCount = 1000;
         ExecutorService executorService = Executors.newFixedThreadPool(32);
         CountDownLatch latch = new CountDownLatch(threadCount);

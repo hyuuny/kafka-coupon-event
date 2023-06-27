@@ -20,7 +20,6 @@ public class ApplyService {
         this.appliedUserRepository = appliedUserRepository;
     }
 
-
     public void apply(final Long userId) {
         Long apply = appliedUserRepository.add(userId);
 
